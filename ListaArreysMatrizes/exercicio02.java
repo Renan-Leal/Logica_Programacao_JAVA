@@ -7,7 +7,7 @@ public class exercicio02 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		boolean verificador =  false;
+		boolean verificador = false;
 		int[] valores = new int[10];
 
 		for (int i = 0; i < valores.length; i++) {

@@ -12,32 +12,27 @@ public class exercicio07 {
 
 		System.out.print("Digite um número: ");
 		int num = input.nextInt();
-		
+
 		System.out.println("\nPREENCHENDO MATRIZ INICIAL: ");
 		for (int i = 0; i < matrizInicial.length; i++) {
 			for (int j = 0; j < matrizInicial.length; j++) {
 				System.out.print("Informe o valor da posição [" + i + "][" + j + "]: ");
 				matrizInicial[i][j] = input.nextInt();
-
 			}
-
 		}
 		System.out.println("\nMATRIZ INICIAL: ");
 		for (int i = 0; i < matrizInicial.length; i++) {
 			for (int j = 0; j < matrizInicial.length; j++) {
 				System.out.print(matrizInicial[i][j] + " ");
-
 			}
 			System.out.println();
-
 		}
-		
+
 		System.out.println("\nMATRIZ RESULTADO: ");
 		for (int i = 0; i < matrizInicial.length; i++) {
 			for (int j = 0; j < matrizInicial.length; j++) {
 				matrizResultado[i][j] = matrizInicial[i][j] * num;
 				System.out.print(matrizResultado[i][j] + " ");
-
 			}
 			System.out.println();
 		}

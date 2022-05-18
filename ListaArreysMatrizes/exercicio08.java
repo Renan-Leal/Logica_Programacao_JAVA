@@ -14,9 +14,8 @@ public class exercicio08 {
 		// PREENCHENDO MATRIZ A
 		for (int i = 0; i < matrizA.length; i++) {
 			for (int j = 0; j < matrizA.length; j++) {
-				System.out.print("informe o valor da posição da matriz A:["+ i +"]["+ j +"]: ");
+				System.out.print("informe o valor da posição da matriz A:[" + i + "][" + j + "]: ");
 				matrizA[i][j] = input.nextInt();
-
 			}
 
 		}
@@ -24,16 +23,14 @@ public class exercicio08 {
 		// PREENCHENDO MATRIZ B
 		for (int i = 0; i < matrizB.length; i++) {
 			for (int j = 0; j < matrizB.length; j++) {
-				System.out.print("Informe o valor da posição da matriz B["+ i +"]["+ j +"]: ");
+				System.out.print("Informe o valor da posição da matriz B[" + i + "][" + j + "]: ");
 				matrizB[i][j] = input.nextInt();
-
 			}
 		}
 		System.out.println("\nMATRIZ A: ");
 		for (int i = 0; i < matrizA.length; i++) {
 			for (int j = 0; j < matrizA.length; j++) {
 				System.out.print(matrizA[i][j] + " ");
-
 			}
 			System.out.println();
 		}
@@ -45,7 +42,7 @@ public class exercicio08 {
 			}
 			System.out.println();
 		}
-		
+
 		System.out.println("\nMATRIZ RESULTADO: ");
 		for (int i = 0; i < matrizB.length; i++) {
 			for (int j = 0; j < matrizB.length; j++) {
